@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{int a;
+printf("Please type the value of a\n");
+scanf("%i",&a);
+printf("%i",a);
+ 
+if(a<88)
+{printf("\n %i is less than 88",a);
+}
+else
+{printf("\n %i is greater than 88",a);
+return 0;
+}
+}
