@@ -1,0 +1,50 @@
+#include<stdio.h>
+int main()
+{char ms;
+printf("\n Please enter your grade\t");
+scanf("%c", &ms);
+if (ms=='A')
+{printf("Your grade is A");
+}
+else if (ms=='B')
+{printf("Your grade is B");
+}
+else if (ms=='C')
+{printf("Your grade is C");
+}
+else 
+{printf("Fuck Yourself");
+}
+return 0;
+ 
+}
+_________________________________________________
+
+#include<stdio.h>
+int main()
+{int x,y,z;
+printf("What is your age\n");
+scanf("%i", &x);
+if (x<20)
+printf("Can we go on date?");
+else if (x<30)
+printf("How about hookup? ");
+else
+printf("You're too old for me");
+return 0;
+}
+_________________________________________________
+
+#include<stdio.h>
+int main()
+{char ms;
+printf("Please enter your grade");
+scanf("%c", &ms);
+if (ms=='A')
+{printf("You've got A grade");
+}
+or else
+{printf("Youve got B grade");
+}
+return 0;
+}
