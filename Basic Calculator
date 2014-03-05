@@ -1,0 +1,26 @@
+//calculator//
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{char ms;
+float n1,n2;
+printf("What mathematical operation do you wanna do?\n 1. Addition \n 2. Multiplication \n 3. Subtraction \n 4. Division\n");
+scanf("%c", &ms);
+printf("Please enter the first number");
+scanf("%f", &n1);
+printf("Please enter the other number");
+scanf("%f", &n2);
+ 
+if (ms == 'A' || ms == 'a')
+printf("The sum of two numbers is %f", n1 + n2);
+ 
+else if (ms == 'M' || ms == 'm')
+printf("The product of two numbers is %f", n1*n2);
+ 
+else if (ms=='S' || ms=='s')
+printf("The difference betwwen rwo numbers is %f", n2 - n1);
+ 
+else if (ms=='D'||ms=='d')
+printf("The result of division is %f", n1/n2);
+return 0;
+}
