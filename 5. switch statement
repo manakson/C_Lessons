@@ -1,0 +1,24 @@
+//Switch Case Statement//
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{printf("Lets see your music taste \n");
+ 
+char myChar;
+scanf("%c", &myChar);
+switch (myChar)
+{ case 'A':
+printf("You are a fan of The Beatles");
+break;
+case 'B':
+printf("You are a fan of Led Zeppelin");
+break;
+case 'C':
+printf("You are a fan of Pink Floyd");
+break;
+default : 
+printf("You are a bozzo");
+break;
+}
+return 0;
+}
