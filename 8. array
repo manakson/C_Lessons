@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+int numbers[]= {5,7,8,2,5};
+for (int i=0;i<5;i++)
+printf("\n%i", numbers[i]);
+return 0;
+}
+_____________________________
+
+//array//
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+int numbers[] = {4,5,6,7,3};
+printf("%i", numbers[2]);
+return 0;
+}
